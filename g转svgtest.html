@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>G to SVG Converter</title>
+  </head>
+
+  <body>
+    <script>
+      // 假设这是你的G语言数据，实际应用中可能需要从文件或其他数据源获取
+      const gData = `<?xml version="1.0" encoding="UTF-8"?>
+<G w="100" h="100">
+  <Layer name="layer1">
+    <rect w="50" h="50" x="25" y="25" ls="1" lc="0,0,255" fc="255,0,0" />
+    <circle cx="50" cy="50" r="20" ls="1" lc="0,0,255" fc="0,255,0" />
+  </Layer>
+</G>`;
+
+      function gToSVG(gData) {
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString(gData, "text/xml");
+        const svgDoc = document.implementation.createDocument(null, "svg", null);
+        const svgRoot = svgDoc.documentElement;
+
+        // 设置SVG的宽度和高度
+        const gWidth = xmlDoc.querySelector("G").getAttribute("w");
+        const gHeight = xmlDoc.querySelector("G").getAttribute("h");
+        svgRoot.setAttribute("width", gWidth);
+        svgRoot.setAttribute("height", gHeight);
+
+        // 遍历G语言中的图形元素并转换为SVG元素
+        const layers = xmlDoc.querySelectorAll("Layer");
+        layers.forEach(layer => {
+          const layerName = layer.getAttribute("name");
+          const rects = layer.querySelectorAll("rect");
+          rects.forEach(rect => {
+            const svgRect = svgDoc.createElementNS("http://www.w3.org/2000/svg", "rect");
+            svgRect.setAttribute("x", rect.getAttribute("x"));
+            svgRect.setAttribute("y", rect.getAttribute("y"));
+            svgRect.setAttribute("width", rect.getAttribute("w"));
+            svgRect.setAttribute("height", rect.getAttribute("h"));
+            svgRect.setAttribute("stroke", rect.getAttribute("lc"));
+            svgRect.setAttribute("fill", rect.getAttribute("fc"));
+            svgRoot.appendChild(svgRect);
+          });
+          const circles = layer.querySelectorAll("circle");
+          circles.forEach(circle => {
+            const svgCircle = svgDoc.createElementNS("http://www.w3.org/2000/svg", "circle");
+            svgCircle.setAttribute("cx", circle.getAttribute("cx"));
+            svgCircle.setAttribute("cy", circle.getAttribute("cy"));
+            svgCircle.setAttribute("r", circle.getAttribute("r"));
+            svgCircle.setAttribute("stroke", circle.getAttribute("lc"));
+            svgCircle.setAttribute("fill", circle.getAttribute("fc"));
+            svgRoot.appendChild(svgCircle);
+          });
+        });
+
+        const serializer = new XMLSerializer();
+        return serializer.serializeToString(svgDoc);
+      }
+
+      const svgOutput = gToSVG(gData);
+      console.log(svgOutput);
+    </script>
+  </body>
+</html>

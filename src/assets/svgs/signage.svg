@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="36">
+  <!-- 背景矩形 -->
+  <rect x="-2" y="3" width="50" height="30" fill="red" rx="2" ry="2" stroke="black" stroke-width="1" />
+  
+  <!-- 文字 -->
+  <text x="20" y="23" text-anchor="middle" fill="white" font-size="18" font-family="宋体">
+    检修
+  </text>
+</svg>

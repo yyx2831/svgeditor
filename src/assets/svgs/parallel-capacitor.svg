@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="300" viewBox="0 0 200 300">
+  <!-- 上方红色圆 -->
+  <circle cx="100" cy="50" r="15" fill="red" stroke="red" stroke-width="4"/>
+
+  <!-- 下方红色圆 -->
+  <circle cx="100" cy="250" r="15" fill="red" stroke="red" stroke-width="4"/>
+
+  <!-- 上方竖线 -->
+  <line x1="100" y1="65" x2="100" y2="100" stroke="red" stroke-width="6"/>
+
+  <!-- 上方水平线 -->
+  <line x1="50" y1="100" x2="150" y2="100" stroke="red" stroke-width="6"/>
+
+  <!-- 下方水平线 -->
+  <line x1="50" y1="200" x2="150" y2="200" stroke="red" stroke-width="6"/>
+
+  <!-- 下方竖线 -->
+  <line x1="100" y1="200" x2="100" y2="235" stroke="red" stroke-width="6"/>
+</svg>

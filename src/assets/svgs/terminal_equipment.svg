@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="36">
+  <!-- 线条 -->
+  <line x1="10" y1="4" x2="10" y2="11" stroke="rgb(255,255,255)" stroke-width="1" />
+  <line x1="10" y1="24" x2="10" y2="30" stroke="rgb(255,255,255)" stroke-width="1" />
+  <line x1="6" y1="30" x2="14" y2="30" stroke="rgb(255,255,255)" stroke-width="1" />
+  <line x1="7" y1="32" x2="12" y2="32" stroke="rgb(255,255,255)" stroke-width="1" />
+  <line x1="9" y1="34" x2="11" y2="34" stroke="rgb(255,255,255)" stroke-width="1" />
+
+  <!-- 圆形 -->
+  <circle cx="2" cy="18" r="0" fill="rgb(255,255,255)" stroke="rgb(0,0,255)" stroke-width="1" />
+
+  <!-- 椭圆 -->
+  <circle cx="10" cy="17" r="5" fill="rgb(0,255,0)" stroke="rgb(0,0,255)" stroke-width="1" />
+
+  <!-- 椭圆弧 1 -->
+  <path d="M5,15 A7,10 0 0,1 15,15" 
+        stroke="rgb(255,255,255)" stroke-width="1" fill="none" />
+
+  <!-- 椭圆弧 2 -->
+  <path d="M5,19 A7,10 0 0,0 15,19" 
+        stroke="rgb(255,255,255)" stroke-width="1" fill="none" />
+
+  <!-- Pin -->
+  <circle cx="10" cy="4" r="2" fill="rgb(0,255,0)" stroke="rgb(255,0,0)" stroke-width="1" />
+</svg>
