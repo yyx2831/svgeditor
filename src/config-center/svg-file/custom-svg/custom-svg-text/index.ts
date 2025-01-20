@@ -70,6 +70,11 @@ export const custom_svg_text: IConfigItem = {
         { value: '200v', label: '200v' },
         { value: '300v', label: '300v' }
       ]
+    },
+    input: {
+      title: '输入框',
+      type: EConfigItemPropsType.Input,
+      val: '输入框'
     }
   },
   common_animations: {

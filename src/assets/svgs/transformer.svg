@@ -1,0 +1,5 @@
+<?xml version="1.0" standalone="no"?>
+<svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+    <path d="M320 256h384v512H320V256zm32 32v448h320V288H352zM448 400h128v32H448v-32zm0 96h128v32H448v-32zm0 96h128v32H448v-32z"/>
+    <path d="M256 192h512v64H256zm0 576h512v64H256z"/>
+</svg>

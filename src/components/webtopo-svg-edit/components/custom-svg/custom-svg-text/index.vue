@@ -32,7 +32,8 @@
         :font-size="props.fontSize"
         :fill="props.fill"
       >
-        {{ props.value }}
+        <!-- {{ props.value }} -->
+        {{ props.input }}
       </text>
     </g>
   </svg>
@@ -61,6 +62,10 @@
       default: ''
     },
     uniqueKey: {
+      type: String,
+      default: ''
+    },
+    input: {
       type: String,
       default: ''
     },

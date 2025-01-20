@@ -6,6 +6,7 @@ import { resistance_svg_file } from './resistance';
 import { prohibit } from './prohibit';
 import { three_winding_transformer_svg_file } from './three-winding-transformer';
 import { shunt_reactance } from './shunt-reactance';
+import { transformer } from './transformer';
 
 export const stateless_group: IConfigComponentGroup = {
   groupType: 'stateless',
@@ -17,6 +18,7 @@ export const stateless_group: IConfigComponentGroup = {
     resistance_svg_file,
     prohibit,
     three_winding_transformer_svg_file,
-    shunt_reactance
+    shunt_reactance,
+    transformer
   ]
 };
