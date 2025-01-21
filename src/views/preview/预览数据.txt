@@ -1,0 +1,1595 @@
+{
+    "layout_center": {
+        "x": 52,
+        "y": 156
+    },
+    "config": {
+        "scale": 1,
+        "position_center": {
+            "x": -333,
+            "y": -113
+        },
+        "svg_position_center": {
+            "x": 50,
+            "y": 50
+        },
+        "grid": true,
+        "ruler": true
+    },
+    "done_json": [
+        {
+            "id": "device-monitor-panelosTnfGgTyc",
+            "x": 524,
+            "y": 643,
+            "client": {
+                "x": 524,
+                "y": 643
+            },
+            "scale_x": 1,
+            "scale_y": 1,
+            "rotate": 0,
+            "actual_bound": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+            },
+            "point_coordinate": {
+                "tl": {
+                    "x": 0,
+                    "y": 0
+                },
+                "tc": {
+                    "x": 0,
+                    "y": 0
+                },
+                "tr": {
+                    "x": 0,
+                    "y": 0
+                },
+                "l": {
+                    "x": 0,
+                    "y": 0
+                },
+                "r": {
+                    "x": 0,
+                    "y": 0
+                },
+                "bl": {
+                    "x": 0,
+                    "y": 0
+                },
+                "bc": {
+                    "x": 0,
+                    "y": 0
+                },
+                "br": {
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            "name": "device-monitor-panel",
+            "title": "设备监控面板",
+            "tag": "device-monitor-panel",
+            "type": "CustomSvg",
+            "display": true,
+            "config": {
+                "can_zoom": true,
+                "have_anchor": true,
+                "actual_rect": true
+            },
+            "props": {
+                "Ua": {
+                    "title": "Ua (V)",
+                    "type": "InputNumber",
+                    "val": 234.9
+                },
+                "Ub": {
+                    "title": "Ub (V)",
+                    "type": "InputNumber",
+                    "val": 234.9
+                },
+                "Uc": {
+                    "title": "Uc (V)",
+                    "type": "InputNumber",
+                    "val": 234.7
+                },
+                "Ia": {
+                    "title": "Ia (A)",
+                    "type": "InputNumber",
+                    "val": 691.2
+                },
+                "Ib": {
+                    "title": "Ib (A)",
+                    "type": "InputNumber",
+                    "val": 668.8
+                },
+                "Ic": {
+                    "title": "Ic (A)",
+                    "type": "InputNumber",
+                    "val": 645.6
+                },
+                "P": {
+                    "title": "P (kW)",
+                    "type": "InputNumber",
+                    "val": 444.3
+                },
+                "Q": {
+                    "title": "Q (kVar)",
+                    "type": "InputNumber",
+                    "val": 123
+                },
+                "S": {
+                    "title": "S (kVA)",
+                    "type": "InputNumber",
+                    "val": 474
+                },
+                "Fq": {
+                    "title": "频率 (Hz)",
+                    "type": "InputNumber",
+                    "val": 49.94
+                },
+                "COS": {
+                    "title": "功率因数",
+                    "type": "InputNumber",
+                    "val": 0.94
+                },
+                "Epr": {
+                    "title": "电能 (kWh)",
+                    "type": "InputNumber",
+                    "val": 15239322
+                },
+                "fontFamily": {
+                    "title": "字体",
+                    "type": "Select",
+                    "val": "Microsoft YaHei",
+                    "options": [
+                        {
+                            "value": "Microsoft YaHei",
+                            "label": "微软雅黑"
+                        },
+                        {
+                            "value": "NSimSun",
+                            "label": "新宋体"
+                        }
+                    ]
+                },
+                "fontSize": {
+                    "title": "文字大小",
+                    "type": "InputNumber",
+                    "val": 14
+                },
+                "color": {
+                    "title": "文字颜色",
+                    "type": "Color",
+                    "val": "#FFFFFF"
+                },
+                "backgroundColor": {
+                    "title": "背景颜色",
+                    "type": "Color",
+                    "val": "#000000"
+                }
+            },
+            "common_animations": {
+                "val": "",
+                "delay": "delay-0s",
+                "speed": "normal",
+                "repeat": "infinite"
+            }
+        },
+        {
+            "id": "device-monitor-panelCXP3D2kpNS",
+            "x": 678,
+            "y": 677,
+            "client": {
+                "x": 678,
+                "y": 677
+            },
+            "scale_x": 1,
+            "scale_y": 1,
+            "rotate": 0,
+            "actual_bound": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+            },
+            "point_coordinate": {
+                "tl": {
+                    "x": 0,
+                    "y": 0
+                },
+                "tc": {
+                    "x": 0,
+                    "y": 0
+                },
+                "tr": {
+                    "x": 0,
+                    "y": 0
+                },
+                "l": {
+                    "x": 0,
+                    "y": 0
+                },
+                "r": {
+                    "x": 0,
+                    "y": 0
+                },
+                "bl": {
+                    "x": 0,
+                    "y": 0
+                },
+                "bc": {
+                    "x": 0,
+                    "y": 0
+                },
+                "br": {
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            "name": "device-monitor-panel",
+            "title": "设备监控面板",
+            "tag": "device-monitor-panel",
+            "type": "CustomSvg",
+            "display": true,
+            "config": {
+                "can_zoom": true,
+                "have_anchor": true,
+                "actual_rect": true
+            },
+            "props": {
+                "Ua": {
+                    "title": "Ua (V)",
+                    "type": "InputNumber",
+                    "val": 234.9
+                },
+                "Ub": {
+                    "title": "Ub (V)",
+                    "type": "InputNumber",
+                    "val": 234.9
+                },
+                "Uc": {
+                    "title": "Uc (V)",
+                    "type": "InputNumber",
+                    "val": 234.7
+                },
+                "Ia": {
+                    "title": "Ia (A)",
+                    "type": "InputNumber",
+                    "val": 691.2
+                },
+                "Ib": {
+                    "title": "Ib (A)",
+                    "type": "InputNumber",
+                    "val": 668.8
+                },
+                "Ic": {
+                    "title": "Ic (A)",
+                    "type": "InputNumber",
+                    "val": 645.6
+                },
+                "P": {
+                    "title": "P (kW)",
+                    "type": "InputNumber",
+                    "val": 444.3
+                },
+                "Q": {
+                    "title": "Q (kVar)",
+                    "type": "InputNumber",
+                    "val": 123
+                },
+                "S": {
+                    "title": "S (kVA)",
+                    "type": "InputNumber",
+                    "val": 474
+                },
+                "Fq": {
+                    "title": "频率 (Hz)",
+                    "type": "InputNumber",
+                    "val": 49.94
+                },
+                "COS": {
+                    "title": "功率因数",
+                    "type": "InputNumber",
+                    "val": 0.94
+                },
+                "Epr": {
+                    "title": "电能 (kWh)",
+                    "type": "InputNumber",
+                    "val": 15239322
+                },
+                "fontFamily": {
+                    "title": "字体",
+                    "type": "Select",
+                    "val": "Microsoft YaHei",
+                    "options": [
+                        {
+                            "value": "Microsoft YaHei",
+                            "label": "微软雅黑"
+                        },
+                        {
+                            "value": "NSimSun",
+                            "label": "新宋体"
+                        }
+                    ]
+                },
+                "fontSize": {
+                    "title": "文字大小",
+                    "type": "InputNumber",
+                    "val": 14
+                },
+                "color": {
+                    "title": "文字颜色",
+                    "type": "Color",
+                    "val": "#FFFFFF"
+                },
+                "backgroundColor": {
+                    "title": "背景颜色",
+                    "type": "Color",
+                    "val": "#000000"
+                }
+            },
+            "common_animations": {
+                "val": "",
+                "delay": "delay-0s",
+                "speed": "normal",
+                "repeat": "infinite"
+            }
+        },
+        {
+            "id": "straight-linelEewNziN0a",
+            "x": 730,
+            "y": 548,
+            "client": {
+                "x": 739,
+                "y": 553
+            },
+            "scale_x": 1,
+            "scale_y": 1,
+            "rotate": 0,
+            "actual_bound": {
+                "x": 50,
+                "y": 50,
+                "width": 0,
+                "height": 0
+            },
+            "point_coordinate": {
+                "tl": {
+                    "x": 730,
+                    "y": 548
+                },
+                "tc": {
+                    "x": 730,
+                    "y": 548
+                },
+                "tr": {
+                    "x": 730,
+                    "y": 548
+                },
+                "l": {
+                    "x": 730,
+                    "y": 548
+                },
+                "r": {
+                    "x": 730,
+                    "y": 548
+                },
+                "bl": {
+                    "x": 730,
+                    "y": 548
+                },
+                "bc": {
+                    "x": 730,
+                    "y": 548
+                },
+                "br": {
+                    "x": 730,
+                    "y": 548
+                }
+            },
+            "name": "connection_line",
+            "title": "连接线",
+            "type": "ConnectionLine",
+            "config": {
+                "can_zoom": false,
+                "have_anchor": false,
+                "actual_rect": false
+            },
+            "display": true,
+            "props": {
+                "stroke": {
+                    "title": "线条颜色",
+                    "type": "Color",
+                    "val": "#ff0000"
+                },
+                "stroke-width": {
+                    "title": "线条宽度",
+                    "type": "InputNumber",
+                    "val": 2
+                },
+                "point_position": {
+                    "title": "点坐标",
+                    "type": "JsonEdit",
+                    "val": [
+                        {
+                            "x": 50,
+                            "y": 50
+                        }
+                    ]
+                }
+            },
+            "animations": {
+                "type": {
+                    "title": "动画类型",
+                    "type": "Select",
+                    "val": "None",
+                    "options": [
+                        {
+                            "label": "无",
+                            "value": "None"
+                        },
+                        {
+                            "label": "电流",
+                            "value": "Electricity"
+                        },
+                        {
+                            "label": "轨迹",
+                            "value": "Track"
+                        },
+                        {
+                            "label": "水珠",
+                            "value": "WaterDrop"
+                        }
+                    ]
+                },
+                "dur": {
+                    "title": "持续时间",
+                    "type": "InputNumber",
+                    "val": 20
+                },
+                "repeatCount": {
+                    "title": "循环次数",
+                    "type": "Input",
+                    "val": "indefinite",
+                    "disabled": true
+                },
+                "color": {
+                    "title": "颜色",
+                    "type": "Color",
+                    "val": "#0a7ae2"
+                },
+                "reverse": {
+                    "title": "反转动画",
+                    "type": "Switch",
+                    "val": false
+                }
+            },
+            "bind_anchors": {
+                "start": {
+                    "type": "TopCenter",
+                    "target_id": "series-capacitors0MRg3rhgkd"
+                },
+                "end": null
+            }
+        },
+        {
+            "id": "straight-line88hVRVU9z9",
+            "x": 1163.0884437561035,
+            "y": 597,
+            "client": {
+                "x": 1168,
+                "y": 595
+            },
+            "scale_x": 1,
+            "scale_y": 1,
+            "rotate": 0,
+            "actual_bound": {
+                "x": 50,
+                "y": 50,
+                "width": 0,
+                "height": 0
+            },
+            "point_coordinate": {
+                "tl": {
+                    "x": 1163.0884437561035,
+                    "y": 597
+                },
+                "tc": {
+                    "x": 1163.0884437561035,
+                    "y": 597
+                },
+                "tr": {
+                    "x": 1163.0884437561035,
+                    "y": 597
+                },
+                "l": {
+                    "x": 1163.0884437561035,
+                    "y": 597
+                },
+                "r": {
+                    "x": 1163.0884437561035,
+                    "y": 597
+                },
+                "bl": {
+                    "x": 1163.0884437561035,
+                    "y": 597
+                },
+                "bc": {
+                    "x": 1163.0884437561035,
+                    "y": 597
+                },
+                "br": {
+                    "x": 1163.0884437561035,
+                    "y": 597
+                }
+            },
+            "name": "connection_line",
+            "title": "连接线",
+            "type": "ConnectionLine",
+            "config": {
+                "can_zoom": false,
+                "have_anchor": false,
+                "actual_rect": false
+            },
+            "display": true,
+            "props": {
+                "stroke": {
+                    "title": "线条颜色",
+                    "type": "Color",
+                    "val": "#ff0000"
+                },
+                "stroke-width": {
+                    "title": "线条宽度",
+                    "type": "InputNumber",
+                    "val": 2
+                },
+                "point_position": {
+                    "title": "点坐标",
+                    "type": "JsonEdit",
+                    "val": [
+                        {
+                            "x": 50,
+                            "y": 50
+                        },
+                        {
+                            "x": 50,
+                            "y": 50
+                        }
+                    ]
+                }
+            },
+            "animations": {
+                "type": {
+                    "title": "动画类型",
+                    "type": "Select",
+                    "val": "None",
+                    "options": [
+                        {
+                            "label": "无",
+                            "value": "None"
+                        },
+                        {
+                            "label": "电流",
+                            "value": "Electricity"
+                        },
+                        {
+                            "label": "轨迹",
+                            "value": "Track"
+                        },
+                        {
+                            "label": "水珠",
+                            "value": "WaterDrop"
+                        }
+                    ]
+                },
+                "dur": {
+                    "title": "持续时间",
+                    "type": "InputNumber",
+                    "val": 20
+                },
+                "repeatCount": {
+                    "title": "循环次数",
+                    "type": "Input",
+                    "val": "indefinite",
+                    "disabled": true
+                },
+                "color": {
+                    "title": "颜色",
+                    "type": "Color",
+                    "val": "#0a7ae2"
+                },
+                "reverse": {
+                    "title": "反转动画",
+                    "type": "Switch",
+                    "val": false
+                }
+            },
+            "bind_anchors": {
+                "start": {
+                    "type": "Left",
+                    "target_id": "grounding-gateRWU7onVXAU"
+                },
+                "end": null
+            }
+        },
+        {
+            "id": "straight-linecKsTEA2Isi",
+            "x": 1193,
+            "y": 365.80876541137695,
+            "client": {
+                "x": 1198,
+                "y": 362
+            },
+            "scale_x": 1,
+            "scale_y": 1,
+            "rotate": 0,
+            "actual_bound": {
+                "x": 50,
+                "y": 50,
+                "width": 0,
+                "height": 0
+            },
+            "point_coordinate": {
+                "tl": {
+                    "x": 1193,
+                    "y": 365.80876541137695
+                },
+                "tc": {
+                    "x": 1193,
+                    "y": 365.80876541137695
+                },
+                "tr": {
+                    "x": 1193,
+                    "y": 365.80876541137695
+                },
+                "l": {
+                    "x": 1193,
+                    "y": 365.80876541137695
+                },
+                "r": {
+                    "x": 1193,
+                    "y": 365.80876541137695
+                },
+                "bl": {
+                    "x": 1193,
+                    "y": 365.80876541137695
+                },
+                "bc": {
+                    "x": 1193,
+                    "y": 365.80876541137695
+                },
+                "br": {
+                    "x": 1193,
+                    "y": 365.80876541137695
+                }
+            },
+            "name": "connection_line",
+            "title": "连接线",
+            "type": "ConnectionLine",
+            "config": {
+                "can_zoom": false,
+                "have_anchor": false,
+                "actual_rect": false
+            },
+            "display": true,
+            "props": {
+                "stroke": {
+                    "title": "线条颜色",
+                    "type": "Color",
+                    "val": "#ff0000"
+                },
+                "stroke-width": {
+                    "title": "线条宽度",
+                    "type": "InputNumber",
+                    "val": 2
+                },
+                "point_position": {
+                    "title": "点坐标",
+                    "type": "JsonEdit",
+                    "val": [
+                        {
+                            "x": 50,
+                            "y": 50
+                        },
+                        {
+                            "x": 50,
+                            "y": 50
+                        }
+                    ]
+                }
+            },
+            "animations": {
+                "type": {
+                    "title": "动画类型",
+                    "type": "Select",
+                    "val": "None",
+                    "options": [
+                        {
+                            "label": "无",
+                            "value": "None"
+                        },
+                        {
+                            "label": "电流",
+                            "value": "Electricity"
+                        },
+                        {
+                            "label": "轨迹",
+                            "value": "Track"
+                        },
+                        {
+                            "label": "水珠",
+                            "value": "WaterDrop"
+                        }
+                    ]
+                },
+                "dur": {
+                    "title": "持续时间",
+                    "type": "InputNumber",
+                    "val": 20
+                },
+                "repeatCount": {
+                    "title": "循环次数",
+                    "type": "Input",
+                    "val": "indefinite",
+                    "disabled": true
+                },
+                "color": {
+                    "title": "颜色",
+                    "type": "Color",
+                    "val": "#0a7ae2"
+                },
+                "reverse": {
+                    "title": "反转动画",
+                    "type": "Switch",
+                    "val": false
+                }
+            },
+            "bind_anchors": {
+                "start": {
+                    "type": "BottomCenter",
+                    "target_id": "grounding-gatepZ2m19T7Et"
+                },
+                "end": null
+            }
+        },
+        {
+            "id": "straight-linezxH4YkQ9pH",
+            "x": 1193,
+            "y": 365.80876541137695,
+            "client": {
+                "x": 1198,
+                "y": 362
+            },
+            "scale_x": 1,
+            "scale_y": 1,
+            "rotate": 0,
+            "actual_bound": {
+                "x": 50,
+                "y": 50,
+                "width": 0,
+                "height": 0
+            },
+            "point_coordinate": {
+                "tl": {
+                    "x": 1193,
+                    "y": 365.80876541137695
+                },
+                "tc": {
+                    "x": 1193,
+                    "y": 365.80876541137695
+                },
+                "tr": {
+                    "x": 1193,
+                    "y": 365.80876541137695
+                },
+                "l": {
+                    "x": 1193,
+                    "y": 365.80876541137695
+                },
+                "r": {
+                    "x": 1193,
+                    "y": 365.80876541137695
+                },
+                "bl": {
+                    "x": 1193,
+                    "y": 365.80876541137695
+                },
+                "bc": {
+                    "x": 1193,
+                    "y": 365.80876541137695
+                },
+                "br": {
+                    "x": 1193,
+                    "y": 365.80876541137695
+                }
+            },
+            "name": "connection_line",
+            "title": "连接线",
+            "type": "ConnectionLine",
+            "config": {
+                "can_zoom": false,
+                "have_anchor": false,
+                "actual_rect": false
+            },
+            "display": true,
+            "props": {
+                "stroke": {
+                    "title": "线条颜色",
+                    "type": "Color",
+                    "val": "#ff0000"
+                },
+                "stroke-width": {
+                    "title": "线条宽度",
+                    "type": "InputNumber",
+                    "val": 2
+                },
+                "point_position": {
+                    "title": "点坐标",
+                    "type": "JsonEdit",
+                    "val": [
+                        {
+                            "x": 50,
+                            "y": 50
+                        },
+                        {
+                            "x": 50,
+                            "y": 50
+                        }
+                    ]
+                }
+            },
+            "animations": {
+                "type": {
+                    "title": "动画类型",
+                    "type": "Select",
+                    "val": "None",
+                    "options": [
+                        {
+                            "label": "无",
+                            "value": "None"
+                        },
+                        {
+                            "label": "电流",
+                            "value": "Electricity"
+                        },
+                        {
+                            "label": "轨迹",
+                            "value": "Track"
+                        },
+                        {
+                            "label": "水珠",
+                            "value": "WaterDrop"
+                        }
+                    ]
+                },
+                "dur": {
+                    "title": "持续时间",
+                    "type": "InputNumber",
+                    "val": 20
+                },
+                "repeatCount": {
+                    "title": "循环次数",
+                    "type": "Input",
+                    "val": "indefinite",
+                    "disabled": true
+                },
+                "color": {
+                    "title": "颜色",
+                    "type": "Color",
+                    "val": "#0a7ae2"
+                },
+                "reverse": {
+                    "title": "反转动画",
+                    "type": "Switch",
+                    "val": false
+                }
+            },
+            "bind_anchors": {
+                "start": {
+                    "type": "BottomCenter",
+                    "target_id": "grounding-gatepZ2m19T7Et"
+                },
+                "end": null
+            }
+        },
+        {
+            "id": "custom-svg-textJHtAXy2swg",
+            "x": 603.5,
+            "y": 410.25,
+            "client": {
+                "x": 603.5,
+                "y": 410.25
+            },
+            "scale_x": 1.2179487179487178,
+            "scale_y": 1,
+            "rotate": 0,
+            "actual_bound": {
+                "x": 60,
+                "y": 36,
+                "width": 78,
+                "height": 26
+            },
+            "point_coordinate": {
+                "tl": {
+                    "x": 556,
+                    "y": 397.25
+                },
+                "tc": {
+                    "x": 603.5,
+                    "y": 397.25
+                },
+                "tr": {
+                    "x": 651,
+                    "y": 397.25
+                },
+                "l": {
+                    "x": 556,
+                    "y": 410.25
+                },
+                "r": {
+                    "x": 651,
+                    "y": 410.25
+                },
+                "bl": {
+                    "x": 556,
+                    "y": 423.25
+                },
+                "bc": {
+                    "x": 603.5,
+                    "y": 423.25
+                },
+                "br": {
+                    "x": 651,
+                    "y": 423.25
+                }
+            },
+            "name": "custom-svg-text",
+            "title": "双开",
+            "tag": "custom-svg-text",
+            "type": "CustomSvg",
+            "display": true,
+            "config": {
+                "can_zoom": true,
+                "have_anchor": true,
+                "actual_rect": true
+            },
+            "props": {
+                "text": {
+                    "title": "文字内容",
+                    "type": "Input",
+                    "val": "文字"
+                },
+                "fontFamily": {
+                    "title": "字体",
+                    "type": "Select",
+                    "val": "Microsoft YaHei",
+                    "options": [
+                        {
+                            "value": "Microsoft YaHei",
+                            "label": "微软雅黑"
+                        },
+                        {
+                            "value": "NSimSun",
+                            "label": "新宋体"
+                        }
+                    ]
+                },
+                "fontSize": {
+                    "title": "文字大小",
+                    "type": "InputNumber",
+                    "val": 15
+                },
+                "fill": {
+                    "title": "文字颜色",
+                    "type": "Color",
+                    "val": "#FFF200FF"
+                },
+                "uniqueKey": {
+                    "title": "键",
+                    "type": "Select",
+                    "val": "Ua",
+                    "options": [
+                        {
+                            "value": "Ua",
+                            "label": "Ua (V)"
+                        },
+                        {
+                            "value": "Ub",
+                            "label": "Ub (V)"
+                        },
+                        {
+                            "value": "Uc",
+                            "label": "Uc (V)"
+                        },
+                        {
+                            "value": "Ia",
+                            "label": "Ia (A)"
+                        },
+                        {
+                            "value": "Ib",
+                            "label": "Ib (A)"
+                        },
+                        {
+                            "value": "Ic",
+                            "label": "Ic (A)"
+                        },
+                        {
+                            "value": "P",
+                            "label": "P (kW)"
+                        },
+                        {
+                            "value": "Q",
+                            "label": "Q (kVar)"
+                        },
+                        {
+                            "value": "S",
+                            "label": "S (kVA)"
+                        },
+                        {
+                            "value": "Fq",
+                            "label": "频率 (Hz)"
+                        },
+                        {
+                            "value": "COS",
+                            "label": "功率因数"
+                        },
+                        {
+                            "value": "Epr",
+                            "label": "电能 (kWh)"
+                        }
+                    ]
+                },
+                "value": {
+                    "title": "值",
+                    "type": "Select",
+                    "val": "值",
+                    "options": [
+                        {
+                            "value": "200v",
+                            "label": "200v"
+                        },
+                        {
+                            "value": "300v",
+                            "label": "300v"
+                        }
+                    ]
+                },
+                "input": {
+                    "title": "输入框",
+                    "type": "Input",
+                    "val": "输入框"
+                }
+            },
+            "common_animations": {
+                "val": "",
+                "delay": "delay-0s",
+                "speed": "slow",
+                "repeat": "infinite"
+            },
+            "keyObj": {
+                "name": "custom-svg-text",
+                "title": "文字",
+                "tag": "custom-svg-text",
+                "type": "CustomSvg",
+                "display": true,
+                "config": {
+                    "can_zoom": true,
+                    "have_anchor": true,
+                    "actual_rect": true
+                },
+                "props": {
+                    "text": {
+                        "title": "文字内容",
+                        "type": "Input",
+                        "val": "文字"
+                    },
+                    "fontFamily": {
+                        "title": "字体",
+                        "type": "Select",
+                        "val": "Microsoft YaHei",
+                        "options": [
+                            {
+                                "value": "Microsoft YaHei",
+                                "label": "微软雅黑"
+                            },
+                            {
+                                "value": "NSimSun",
+                                "label": "新宋体"
+                            }
+                        ]
+                    },
+                    "fontSize": {
+                        "title": "文字大小",
+                        "type": "InputNumber",
+                        "val": 15
+                    },
+                    "fill": {
+                        "title": "文字颜色",
+                        "type": "Color",
+                        "val": "#FFF200FF"
+                    }
+                },
+                "common_animations": {
+                    "val": "",
+                    "delay": "delay-0s",
+                    "speed": "slow",
+                    "repeat": "infinite"
+                }
+            },
+            "valueObj": {
+                "name": "custom-svg-text",
+                "title": "文字",
+                "tag": "custom-svg-text",
+                "type": "CustomSvg",
+                "display": true,
+                "config": {
+                    "can_zoom": true,
+                    "have_anchor": true,
+                    "actual_rect": true
+                },
+                "props": {
+                    "text": {
+                        "title": "文字内容",
+                        "type": "Input",
+                        "val": "文字"
+                    },
+                    "fontFamily": {
+                        "title": "字体",
+                        "type": "Select",
+                        "val": "Microsoft YaHei",
+                        "options": [
+                            {
+                                "value": "Microsoft YaHei",
+                                "label": "微软雅黑"
+                            },
+                            {
+                                "value": "NSimSun",
+                                "label": "新宋体"
+                            }
+                        ]
+                    },
+                    "fontSize": {
+                        "title": "文字大小",
+                        "type": "InputNumber",
+                        "val": 15
+                    },
+                    "fill": {
+                        "title": "文字颜色",
+                        "type": "Color",
+                        "val": "#FFF200FF"
+                    }
+                },
+                "common_animations": {
+                    "val": "",
+                    "delay": "delay-0s",
+                    "speed": "slow",
+                    "repeat": "infinite"
+                }
+            }
+        },
+        {
+            "id": "custom-svg-textFU5esskG4B",
+            "x": 685,
+            "y": 553,
+            "client": {
+                "x": 685,
+                "y": 553
+            },
+            "scale_x": 1,
+            "scale_y": 1,
+            "rotate": 0,
+            "actual_bound": {
+                "x": 60,
+                "y": 36,
+                "width": 78,
+                "height": 26
+            },
+            "point_coordinate": {
+                "tl": {
+                    "x": 646,
+                    "y": 540
+                },
+                "tc": {
+                    "x": 685,
+                    "y": 540
+                },
+                "tr": {
+                    "x": 724,
+                    "y": 540
+                },
+                "l": {
+                    "x": 646,
+                    "y": 553
+                },
+                "r": {
+                    "x": 724,
+                    "y": 553
+                },
+                "bl": {
+                    "x": 646,
+                    "y": 566
+                },
+                "bc": {
+                    "x": 685,
+                    "y": 566
+                },
+                "br": {
+                    "x": 724,
+                    "y": 566
+                }
+            },
+            "name": "custom-svg-text",
+            "title": "双开",
+            "tag": "custom-svg-text",
+            "type": "CustomSvg",
+            "display": true,
+            "config": {
+                "can_zoom": true,
+                "have_anchor": true,
+                "actual_rect": true
+            },
+            "props": {
+                "text": {
+                    "title": "文字内容",
+                    "type": "Input",
+                    "val": "文字"
+                },
+                "fontFamily": {
+                    "title": "字体",
+                    "type": "Select",
+                    "val": "Microsoft YaHei",
+                    "options": [
+                        {
+                            "value": "Microsoft YaHei",
+                            "label": "微软雅黑"
+                        },
+                        {
+                            "value": "NSimSun",
+                            "label": "新宋体"
+                        }
+                    ]
+                },
+                "fontSize": {
+                    "title": "文字大小",
+                    "type": "InputNumber",
+                    "val": 15
+                },
+                "fill": {
+                    "title": "文字颜色",
+                    "type": "Color",
+                    "val": "#FFF200FF"
+                },
+                "uniqueKey": {
+                    "title": "键",
+                    "type": "Select",
+                    "val": "Ua",
+                    "options": [
+                        {
+                            "value": "Ua",
+                            "label": "Ua (V)"
+                        },
+                        {
+                            "value": "Ub",
+                            "label": "Ub (V)"
+                        },
+                        {
+                            "value": "Uc",
+                            "label": "Uc (V)"
+                        },
+                        {
+                            "value": "Ia",
+                            "label": "Ia (A)"
+                        },
+                        {
+                            "value": "Ib",
+                            "label": "Ib (A)"
+                        },
+                        {
+                            "value": "Ic",
+                            "label": "Ic (A)"
+                        },
+                        {
+                            "value": "P",
+                            "label": "P (kW)"
+                        },
+                        {
+                            "value": "Q",
+                            "label": "Q (kVar)"
+                        },
+                        {
+                            "value": "S",
+                            "label": "S (kVA)"
+                        },
+                        {
+                            "value": "Fq",
+                            "label": "频率 (Hz)"
+                        },
+                        {
+                            "value": "COS",
+                            "label": "功率因数"
+                        },
+                        {
+                            "value": "Epr",
+                            "label": "电能 (kWh)"
+                        }
+                    ]
+                },
+                "value": {
+                    "title": "值",
+                    "type": "Select",
+                    "val": "值",
+                    "options": [
+                        {
+                            "value": "200v",
+                            "label": "200v"
+                        },
+                        {
+                            "value": "300v",
+                            "label": "300v"
+                        }
+                    ]
+                },
+                "input": {
+                    "title": "输入框",
+                    "type": "Input",
+                    "val": "输入框222222222222222"
+                }
+            },
+            "common_animations": {
+                "val": "",
+                "delay": "delay-0s",
+                "speed": "slow",
+                "repeat": "infinite"
+            },
+            "keyObj": {
+                "name": "custom-svg-text",
+                "title": "文字",
+                "tag": "custom-svg-text",
+                "type": "CustomSvg",
+                "display": true,
+                "config": {
+                    "can_zoom": true,
+                    "have_anchor": true,
+                    "actual_rect": true
+                },
+                "props": {
+                    "text": {
+                        "title": "文字内容",
+                        "type": "Input",
+                        "val": "文字"
+                    },
+                    "fontFamily": {
+                        "title": "字体",
+                        "type": "Select",
+                        "val": "Microsoft YaHei",
+                        "options": [
+                            {
+                                "value": "Microsoft YaHei",
+                                "label": "微软雅黑"
+                            },
+                            {
+                                "value": "NSimSun",
+                                "label": "新宋体"
+                            }
+                        ]
+                    },
+                    "fontSize": {
+                        "title": "文字大小",
+                        "type": "InputNumber",
+                        "val": 15
+                    },
+                    "fill": {
+                        "title": "文字颜色",
+                        "type": "Color",
+                        "val": "#FFF200FF"
+                    }
+                },
+                "common_animations": {
+                    "val": "",
+                    "delay": "delay-0s",
+                    "speed": "slow",
+                    "repeat": "infinite"
+                }
+            },
+            "valueObj": {
+                "name": "custom-svg-text",
+                "title": "文字",
+                "tag": "custom-svg-text",
+                "type": "CustomSvg",
+                "display": true,
+                "config": {
+                    "can_zoom": true,
+                    "have_anchor": true,
+                    "actual_rect": true
+                },
+                "props": {
+                    "text": {
+                        "title": "文字内容",
+                        "type": "Input",
+                        "val": "文字"
+                    },
+                    "fontFamily": {
+                        "title": "字体",
+                        "type": "Select",
+                        "val": "Microsoft YaHei",
+                        "options": [
+                            {
+                                "value": "Microsoft YaHei",
+                                "label": "微软雅黑"
+                            },
+                            {
+                                "value": "NSimSun",
+                                "label": "新宋体"
+                            }
+                        ]
+                    },
+                    "fontSize": {
+                        "title": "文字大小",
+                        "type": "InputNumber",
+                        "val": 15
+                    },
+                    "fill": {
+                        "title": "文字颜色",
+                        "type": "Color",
+                        "val": "#FFF200FF"
+                    }
+                },
+                "common_animations": {
+                    "val": "",
+                    "delay": "delay-0s",
+                    "speed": "slow",
+                    "repeat": "infinite"
+                }
+            }
+        },
+        {
+            "id": "signageOo6lBgaJcM",
+            "x": 581,
+            "y": 104,
+            "client": {
+                "x": 581,
+                "y": 104
+            },
+            "scale_x": 1,
+            "scale_y": 1,
+            "rotate": 0,
+            "actual_bound": {
+                "x": -5,
+                "y": 12.5,
+                "width": 125,
+                "height": 75
+            },
+            "point_coordinate": {
+                "tl": {
+                    "x": 518.5,
+                    "y": 66.5
+                },
+                "tc": {
+                    "x": 581,
+                    "y": 66.5
+                },
+                "tr": {
+                    "x": 643.5,
+                    "y": 66.5
+                },
+                "l": {
+                    "x": 518.5,
+                    "y": 104
+                },
+                "r": {
+                    "x": 643.5,
+                    "y": 104
+                },
+                "bl": {
+                    "x": 518.5,
+                    "y": 141.5
+                },
+                "bc": {
+                    "x": 581,
+                    "y": 141.5
+                },
+                "br": {
+                    "x": 643.5,
+                    "y": 141.5
+                }
+            },
+            "name": "signage",
+            "title": "标志牌",
+            "type": "File",
+            "config": {
+                "can_zoom": true,
+                "have_anchor": true,
+                "actual_rect": true
+            },
+            "display": true,
+            "props": {
+                "fill": {
+                    "title": "填充色",
+                    "type": "Color",
+                    "val": "#ff0000"
+                }
+            },
+            "common_animations": {
+                "val": "",
+                "delay": "delay-0s",
+                "speed": "slow",
+                "repeat": "infinite"
+            }
+        },
+        {
+            "id": "working-conditionsd0cLDbgz5J",
+            "x": 527,
+            "y": 232,
+            "client": {
+                "x": 527,
+                "y": 232
+            },
+            "scale_x": 1,
+            "scale_y": 1,
+            "rotate": 0,
+            "actual_bound": {
+                "x": 11.538461685180664,
+                "y": 11.538461685180664,
+                "width": 76.923095703125,
+                "height": 76.92308044433594
+            },
+            "point_coordinate": {
+                "tl": {
+                    "x": 488.53845977783203,
+                    "y": 193.53845977783203
+                },
+                "tc": {
+                    "x": 527,
+                    "y": 193.53845977783203
+                },
+                "tr": {
+                    "x": 565.461540222168,
+                    "y": 193.53845977783203
+                },
+                "l": {
+                    "x": 488.53845977783203,
+                    "y": 232
+                },
+                "r": {
+                    "x": 565.461540222168,
+                    "y": 232
+                },
+                "bl": {
+                    "x": 488.53845977783203,
+                    "y": 270.46154022216797
+                },
+                "bc": {
+                    "x": 527,
+                    "y": 270.46154022216797
+                },
+                "br": {
+                    "x": 565.461540222168,
+                    "y": 270.46154022216797
+                }
+            },
+            "name": "working-conditions",
+            "title": "工况2",
+            "type": "File",
+            "config": {
+                "can_zoom": true,
+                "have_anchor": true,
+                "actual_rect": true
+            },
+            "display": true,
+            "props": {
+                "fill": {
+                    "title": "填充色",
+                    "type": "Color",
+                    "val": "#ff0000"
+                }
+            },
+            "common_animations": {
+                "val": "",
+                "delay": "delay-0s",
+                "speed": "slow",
+                "repeat": "infinite"
+            }
+        }
+    ]
+}

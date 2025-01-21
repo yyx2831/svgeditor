@@ -1,6 +1,7 @@
 import { IConfigCenter, IConfigItem } from '../../config-center/types';
 
 export interface IGlobalStore {
+  svgWidth: number;
   config_center: IConfigCenter;
   intention: EGlobalStoreIntention;
   create_svg_info: IConfigItem | null;

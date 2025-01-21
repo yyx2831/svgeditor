@@ -57,7 +57,8 @@ export const useGlobalStore = defineStore('global-store', {
           y: 0
         },
         point_index: 0
-      }
+      },
+      svgWidth: 500 // 默认宽度
     };
   },
   getters: {},
