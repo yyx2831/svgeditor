@@ -31,7 +31,7 @@
         // 直接删掉a.config.background_color这一条, 也就是删除背景颜色, 默认会有辅助线
         delete a.config.background_color;
         parsedDataModel.value = a;
-        console.log('解析后的 Data Model:', parsedDataModel.value);
+        console.log('解析后的 Data Model:', parsedDataModel.value, 'a:', a);
       } catch (error) {
         console.error('解析 data_model 失败:', error);
       }
