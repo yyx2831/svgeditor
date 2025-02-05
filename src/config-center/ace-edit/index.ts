@@ -1,4 +1,4 @@
-import ace from 'ace-builds';
+import * as ace from 'ace-builds';
 
 import themeMonokaiUrl from 'ace-builds/src-noconflict/theme-monokai?url';
 ace.config.setModuleUrl('ace/theme/monokai', themeMonokaiUrl);
