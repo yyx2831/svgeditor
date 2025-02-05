@@ -1,20 +1,4 @@
-import { EConfigItemPropsType, EDoneJsonType } from '@/config-center/types';
-
-export interface IConfigItem {
-  name: string;
-  title: string;
-  display: boolean;
-  props: any;
-  type: EDoneJsonType;
-  config: any;
-  keyObj?: IConfigItem;
-  tag?: string; // 添加 tag 属性
-  common_animations?: any; // 添加 common_animations 属性
-  valueObj?: IConfigItem; // 添加 valueObj 属性
-  // 如果需要，也可以增加其他不存在的属性
-  // valueObj?: IConfigItem;
-  // ...其他属性...
-}
+import { EConfigItemPropsType, EDoneJsonType, IConfigItem } from '@/config-center/types';
 
 // export const custom_svg_text: IConfigItem = {
 export const custom_svg_text: IConfigItem = {

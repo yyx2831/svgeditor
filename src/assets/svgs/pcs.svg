@@ -1,0 +1,54 @@
+<svg 
+  viewBox="0 0 600 400"
+  width="200"
+  height="200"
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- PCS外壳 -->
+  <rect
+    x="100"
+    y="50"
+    width="400"
+    height="300"
+    rx="20"
+    ry="20"
+    stroke="#000"
+    fill="none"
+    stroke-width="10"
+  />
+
+  <!-- AC/DC文字标识 -->
+  <text x="120" y="100" font-size="40" fill="#000">AC</text>
+  <text x="440" y="100" font-size="40" fill="#000">DC</text>
+
+  <!-- 中间转换箭头 -->
+  <path
+    d="M 250 200 L 350 200 M 330 180 L 350 200 L 330 220"
+    stroke="#000"
+    stroke-width="8"
+    fill="none"
+  />
+
+  <!-- 电流流动动画 -->
+  <rect
+    x="100"
+    y="150"
+    width="0"
+    height="100"
+    fill="#4CAF50"
+    stroke="none"
+  >
+    <animate
+      attributeName="width"
+      from="0"
+      to="400"
+      dur="3s"
+      repeatCount="indefinite"
+    />
+  </rect>
+
+  <!-- 接线端子 -->
+  <rect x="50" y="180" width="50" height="40" fill="#000"/>
+  <rect x="500" y="180" width="50" height="40" fill="#000"/>
+</svg>

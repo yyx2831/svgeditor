@@ -1,0 +1,60 @@
+<svg 
+  viewBox="0 0 600 400"
+  width="200"
+  height="200"
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- 电表外壳 -->
+  <rect
+    x="100"
+    y="50"
+    width="400"
+    height="300"
+    rx="20"
+    ry="20"
+    stroke="#333333"
+    fill="none"
+    stroke-width="10"
+  />
+
+  <!-- 数字显示屏 -->
+  <rect
+    x="150"
+    y="100"
+    width="300"
+    height="80"
+    fill="#000000"
+    stroke="#666666"
+    stroke-width="2"
+  />
+
+  <!-- 数字动画 -->
+  <text 
+    x="170" 
+    y="155" 
+    font-family="Digital-7" 
+    font-size="50" 
+    fill="#00FF00"
+  >
+    <animate
+      attributeName="textContent"
+      values="000.0;111.1;222.2;333.3;444.4;555.5;666.6;777.7;888.8;999.9"
+      dur="10s"
+      repeatCount="indefinite"
+    />
+  </text>
+
+  <!-- 单位标识 -->
+  <text
+    x="450"
+    y="155"
+    font-family="Arial"
+    font-size="30"
+    fill="#00FF00"
+  >kWh</text>
+
+  <!-- 接线端子 -->
+  <rect x="200" y="300" width="60" height="30" fill="#666666"/>
+  <rect x="340" y="300" width="60" height="30" fill="#666666"/>
+</svg>

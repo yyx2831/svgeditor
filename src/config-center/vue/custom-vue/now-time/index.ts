@@ -15,7 +15,7 @@ export const custom_vue_now_time: IConfigItem = {
     fontColor: {
       title: '文字颜色',
       type: EConfigItemPropsType.Color,
-      val: '#000000'
+      val: '#ffffff'
     }
   },
   common_animations: {

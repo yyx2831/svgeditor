@@ -1,0 +1,61 @@
+<svg 
+  viewBox="0 0 600 400"
+  width="200"
+  height="200"
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- 变压器外壳 -->
+  <rect
+    x="100"
+    y="50"
+    width="400"
+    height="300"
+    rx="20"
+    ry="20"
+    stroke="#333333"
+    fill="none"
+    stroke-width="10"
+  />
+
+  <!-- 变压器符号：两个线圈 -->
+  <g transform="translate(200,150)">
+    <!-- 左侧线圈 -->
+    <path
+      d="M0,0 C0,-20 0,-40 0,-60 C30,-60 30,0 0,0"
+      fill="none"
+      stroke="#333333"
+      stroke-width="4"
+    />
+    <!-- 右侧线圈 -->
+    <path
+      d="M40,0 C40,-20 40,-40 40,-60 C70,-60 70,0 40,0"
+      fill="none"
+      stroke="#333333"
+      stroke-width="4"
+    />
+    <!-- 铁芯 -->
+    <line x1="20" y1="-70" x2="20" y2="10" stroke="#333333" stroke-width="8"/>
+  </g>
+
+  <!-- 电压等级标识 -->
+  <text x="150" y="280" fill="#333333" font-size="24">35kV</text>
+  <text x="400" y="280" fill="#333333" font-size="24">400V</text>
+
+  <!-- 电能流动动画 -->
+  <g>
+    <path
+      d="M150,150 L450,150"
+      stroke="#4CAF50"
+      stroke-width="4"
+      fill="none"
+    >
+      <animate
+        attributeName="stroke-dasharray"
+        values="0,300;300,300"
+        dur="3s"
+        repeatCount="indefinite"
+      />
+    </path>
+  </g>
+</svg>

@@ -21,7 +21,7 @@
     > -->
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      :style="{ backgroundColor: '#000000' }"
+      :style="{ backgroundColor: '#CCCCCC' }"
       width="100%"
       height="100%"
     >

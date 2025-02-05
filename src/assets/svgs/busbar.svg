@@ -1,0 +1,50 @@
+<svg 
+  viewBox="0 0 1600 400"
+  width="300"
+  height="150"
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- 主母线 -->
+  <rect
+    x="50"
+    y="150"
+    width="1500"
+    height="60"
+    fill="none"
+    stroke="#333333"
+    stroke-width="6"
+  />
+
+  <!-- 分支连接点 -->
+  <g>
+    <!-- 分支1 -->
+    <rect x="250" y="210" width="4" height="100" fill="#333333"/>
+    <circle cx="252" cy="310" r="6" fill="#333333"/>
+    
+    <!-- 分支2 -->
+    <rect x="750" y="210" width="4" height="100" fill="#333333"/>
+    <circle cx="752" cy="310" r="6" fill="#333333"/>
+    
+    <!-- 分支3 -->
+    <rect x="1250" y="210" width="4" height="100" fill="#333333"/>
+    <circle cx="1252" cy="310" r="6" fill="#333333"/>
+  </g>
+
+  <!-- 电流流动动画 -->
+  <rect
+    x="50"
+    y="170"
+    width="0"
+    height="20"
+    fill="#4CAF50"
+  >
+    <animate
+      attributeName="width"
+      from="0"
+      to="1500"
+      dur="3s"
+      repeatCount="indefinite"
+    />
+  </rect>
+</svg>

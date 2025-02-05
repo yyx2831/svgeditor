@@ -7,7 +7,7 @@
     :font-size="props.fontSize"
     :fill="props.fill"
   >
-    {{ props.text }}2
+    {{ props.text }}
   </text>
 </template>
 <script setup lang="ts">
